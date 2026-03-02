@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "react": "^19.2.0-canary-d415fd3e-20250919",
+    "react-dom": "^19.2.0-canary-d415fd3e-20250919",
+    "react-router-dom": "^7.9.1",
+    "react-search-autocomplete": "^8.5.2"
+  }
+}

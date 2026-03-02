@@ -1,0 +1,210 @@
+.sorter-page{
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    width: 98vw;
+    height: 1200px;
+}
+
+.left-panel{
+    margin: 0.25rem;
+    width: 480px;
+    height: 860px;
+    position: relative;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: row;
+    resize: horizontal;
+}
+
+.left-panel::-webkit-scrollbar {
+    display: yes;
+  }
+
+.playlist-song{
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    margin: 3px;
+    gap: 0.5rem;
+    max-height: 56px;
+    padding: 0.2rem;
+
+}
+
+.playlist-song-nr p{
+    line-height: 56px;
+    font-size: 12px;
+    margin: 0;
+    width: 24px;
+    text-align: right;
+}
+
+.playlist-song-img{
+    display: flex;
+    width: 56px;
+}
+
+.playlist-song-info h3{
+    line-height: 56px;
+    margin: 0;
+    text-align: left;
+    font-size: 12px;
+    height: 100%;
+    white-space:nowrap;
+}
+
+.main-panel{
+    width: 100%;
+    max-width: 66%;
+    background-color: #343434;
+    border: #AAAAAA;
+    border-radius: 2;
+    overflow: hidden;
+}
+
+.main-panel h2{
+    margin: 0.1rem;
+    width: 100%;
+    overflow: hidden;
+}
+
+.main-panel h3{
+    margin-bottom: 0.75rem;
+    width: 100%;
+    overflow: hidden;
+}
+
+.right-panel{
+    margin: 0.5rem;
+    width: 360px;
+}
+
+.right-panel p {
+    margin: 0.1rem;
+}
+
+.right-panel h2 {
+    margin: 0.4rem;
+}
+
+.right-panel h3 {
+    margin: 0.4rem;
+}
+
+.right-panel-home-logos img{
+    padding: 0%;
+}
+
+.main-test-buttons{
+    padding: 1em;
+}
+
+.main-guesser{
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 100%;
+    height: 150%;
+}
+
+.main-guesser-control{
+    display: flex;
+    flex-direction: column;
+    margin-inline: 1%;
+    width: 50%;
+    overflow: hidden;
+}
+
+.main-guesser h1{
+    white-space:nowrap;
+    overflow: hidden;
+    font-size: 11;
+    margin: 0.25em;
+}
+
+.main-guesser h2{
+    font-size: 11;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.main-guesser h3{
+    font-size: 11;
+}
+
+.main-guesser-control-button-row{
+    padding: 0.1em;
+}
+
+.main-guesser-control-button-row button{
+    margin: 0.15em;
+}
+
+
+.main-guesser-info{
+    display: flex;
+    flex-direction: column;
+    margin-inline: 1%;
+    width: 50%;
+    overflow: hidden;
+}
+
+.main-guesser-info-scores{
+    display: flex;
+    flex-direction: row;
+    margin-inline: 20%;
+    overflow: hidden;
+}
+
+.main-guesser-info-scores-sub{
+    width: 50%;
+}
+
+.main-guesser-info h3{
+    text-align: center;
+    max-width: 100%;
+    max-width: 100%;
+    height:1.5em;
+    margin-top: 0.3em;
+    margin-bottom: 0.25em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.guess-form input{
+    width: 50%;
+    height: 2em;
+}
+
+.guess-form button{
+    margin: 0.25em;
+}
+
+.guess-form-auto{
+    margin-inline: 15%;
+}
+
+.history-guess{
+    overflow: hidden;
+    overflow-y: scroll;
+    height: 500px;
+
+    
+    overflow: auto;
+    flex-direction: column-reverse;
+
+}
+
+.history-guess-entry p{
+    margin: 3px;
+}
+
+
+.search .wrapper:first-child {
+  max-height: 2000px;
+}
